@@ -1,0 +1,13 @@
+{
+  "_comment": "Example config to connect Claude Desktop / Cursor to Arize Phoenix MCP. Replace placeholders; NEVER commit a real PHOENIX_API_KEY.",
+  "mcpServers": {
+    "phoenix": {
+      "command": "npx",
+      "args": ["-y", "@arizeai/phoenix-mcp@latest"],
+      "env": {
+        "PHOENIX_BASE_URL": "https://app.phoenix.arize.com/s/REPLACE_SPACE",
+        "PHOENIX_API_KEY": "REPLACE_WITH_YOUR_PHOENIX_API_KEY"
+      }
+    }
+  }
+}
